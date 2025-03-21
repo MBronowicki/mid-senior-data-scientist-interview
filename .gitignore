@@ -1,0 +1,56 @@
+# macOS system files
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+*.env
+*.venv
+.envrc
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# Logs and outputs
+logs/
+*.log
+*.out
+*.err
+
+# Data files
+data/raw/
+data/processed/
+#*.csv
+*.json
+*.xlsx
+*.parquet
+*.h5
+*.feather
+
+# Model files
+models/
+*.h5
+*.pkl
+*.joblib
+
+# Docker
+docker-compose.override.yml
+.env
+
+# Other
+__MACOSX/
