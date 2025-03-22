@@ -48,8 +48,7 @@ models/
 *.pkl
 *.joblib
 
-# Docker
-docker-compose.override.yml
+# Environment file
 .env
 
 # Other
